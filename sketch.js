@@ -68,8 +68,8 @@ function draw() {
       textSize(20)
       text("Docking Successful",600,200)
       
-//       spacecraft.velocityX=0
-      spacecraft.setVelocity(0,0)
+      spacecraft.velocityX=0
+      spacecraft.velocityY=0
 
       random2 = createSprite(315,365,30,30)
       random2.visible=0
